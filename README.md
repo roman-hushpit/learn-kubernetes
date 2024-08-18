@@ -41,3 +41,9 @@ kubectl logs PODNAME
 
 # Delete pods
 kubectl delete pod PODNAME
+
+kubectl apply -f api-deployment.yaml
+
+kubectl get configmaps
+
+kubectl apply -f api-configmap.yaml
