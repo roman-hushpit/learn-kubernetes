@@ -47,3 +47,9 @@ kubectl apply -f api-deployment.yaml
 kubectl get configmaps
 
 kubectl apply -f api-configmap.yaml
+
+# Persistent Volume Claims (PVC)
+
+kubectl get pvc
+kubectl get pv
+kubectl delete pvc <pvc-name>
