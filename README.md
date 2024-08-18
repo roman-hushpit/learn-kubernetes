@@ -36,6 +36,16 @@ export EDITOR="code -w"
 
 to your .zshrc or .bashrc file
 
+# Ingress 
+## to start appp in host: 
+
+minikube addons enable ingress
+
+minikube tunnel -c
+
+# Proxy
+kubectl proxy
+
 # Access pod logs
 kubectl logs PODNAME
 
