@@ -53,3 +53,10 @@ kubectl apply -f api-configmap.yaml
 kubectl get pvc
 kubectl get pv
 kubectl delete pvc <pvc-name>
+
+
+# Making a new namespace
+
+Create a new namespace called crawler:
+kubectl create ns crawler
+
