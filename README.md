@@ -60,3 +60,6 @@ kubectl delete pvc <pvc-name>
 Create a new namespace called crawler:
 kubectl create ns crawler
 
+# To get metrics working, we need to enable the metrics-server addon. 
+
+minikube addons enable metrics-server
